@@ -26,3 +26,19 @@ Tecnologias Utilizadas:
     - Nuxt Layers: Organização modular da aplicação.
     - API Mockada via SSR: Simulação de chamadas de API para busca e reserva de hotéis.
     - GitHub Actions: Pipeline CI/CD para automação de build e deploy.
+
+
+    OBS: Neste projeto foi implementado auth (login) sem critérios para email e senha, ou seja, qualquer email e senha será autenticado, porém,
+    existe validação para o formato de email e carateres da senha.
+
+    OBS: Para verificação de autenticação use a rota localhost:3000/dummylogin.
+
+
+
+
+    Executar o projeto:
+
+    1- Clone o repositório, usando a branch "main";
+    2- Instalar as dependências: "npm install"
+    3- Executar o projeto: "npm run dev"
+    4 -Executar testes: "npx vitest"
