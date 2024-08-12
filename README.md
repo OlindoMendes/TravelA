@@ -39,6 +39,6 @@ Tecnologias Utilizadas:
     Executar o projeto:
 
     1- Clone o repositório, usando a branch "main";
-    2- Instalar as dependências: "npm install"
+    2- Instalar as dependências: "npm install --legacy-peer-deps"
     3- Executar o projeto: "npm run dev"
     4 -Executar testes: "npx vitest"
